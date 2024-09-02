@@ -1,0 +1,105 @@
+/* 
+## Colors
+
+- Yellow: hsl(47, 88%, 63%)
+
+- White: hsl(0, 0%, 100%)
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 500, 800
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.blog-preview-card {
+  background-color: hsl(0, 0%, 100%);
+  max-width: 400px;
+  padding: 20px 30px 35px 30px;
+  margin-top: 150px;
+  border-radius: 8px;
+  box-shadow: 8px 8px 4px hsl(0, 0%, 7%);
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.tag-title {
+  font-weight: bold;
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.publish {
+  margin: 16px 0;
+  color: hsl(0, 0%, 7%);
+}
+
+.title {
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 7%);
+}
+
+.info {
+  margin-bottom: 16px;
+  color: hsl(0, 0%, 42%);
+}
+
+.author-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.author-img {
+  width: 30px;
+}
+
+.author-name {
+  margin: 0 12px;
+  font-weight: bold;
+  color: hsl(0, 0%, 7%);
+}
+
+.footer {
+  margin: auto 0 25px 0;
+}
+
+.attribution { 
+  font-size: 14px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
